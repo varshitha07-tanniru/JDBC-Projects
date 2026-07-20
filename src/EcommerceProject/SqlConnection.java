@@ -2,7 +2,6 @@ package EcommerceProject;
 import java.sql.*;
 public class SqlConnection {
 	public static void main(String[] args) {
-		//load and register the jdbc
 		Connection con=null;
 		try {
 		Class.forName("com.mysql.cj.jdbc.Driver");
