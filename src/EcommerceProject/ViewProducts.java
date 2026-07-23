@@ -14,12 +14,18 @@ public class ViewProducts {
 			double price=rs.getDouble("price");
 			int stock=rs.getInt("stock");
 			int category_id=rs.getInt("category_id");
-			System.out.println("Product_id:"+product_id);
-			System.out.println("Product_name:"+product_name);
-			System.out.println("Price:"+price);
-			System.out.println("Stock:"+stock);
-			System.out.println("Category_id:"+category_id);
+			System.out.println("Product_id :"+product_id);
+			System.out.println("Product_name :"+product_name);
+			System.out.println("Price :"+price);
+			System.out.println("Stock :"+stock);
+			System.out.println("Category_id :"+category_id);
+			System.out.println("----------------------");
 		}
+		if(rs != null)
+		    rs.close();
+
+		if(ps != null)
+		    ps.close();
 		
 	}
 }
