@@ -25,6 +25,7 @@ public class SqlConnection {
 				e.printStackTrace();
 			}
 		}
+		System.out.println("Hello");
 	}
 }
 
